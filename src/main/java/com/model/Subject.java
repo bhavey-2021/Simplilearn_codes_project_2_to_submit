@@ -22,7 +22,7 @@ import com.mysql.cj.x.protobuf.MysqlxCursor.Fetch;
 public class Subject {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "sub_id")
 	private int id;
 	
